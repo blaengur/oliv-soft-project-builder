@@ -62,3 +62,4 @@ echo ---------------------
 ../gradlew build
 # Copying archives
 # find . -name *-1.0.jar -print -exec cp {} ./build/libs \;
+find . -name *-3.0.1.5.jar -print 
