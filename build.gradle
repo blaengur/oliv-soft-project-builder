@@ -3,10 +3,10 @@ compileJava.options.encoding = 'ISO-8859-1'
 apply plugin: 'maven'
 
 group = 'oliv.cool.stuff'
-version = '3.0.1.5'
+version = '4.0.0.0'
 
-def userprofile = System.getenv()['USERPROFILE'] // On Windows...
-ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password") 
+// def userprofile = System.getenv()['USERPROFILE'] // On Windows...
+// ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password") 
 
 dependencies {
   compile project(':geomutils')
@@ -30,14 +30,5 @@ dependencies {
 repositories {
   mavenCentral()
   maven { url "http://lediouris.net/maven2" }
-
-//maven { url "file:///" + userprofile + "/.m2/repository" }
-}
-
-task checkout << {
-  println "Run the script named checkout..."
-}
-
-task dropsrc << {
-  println "To Be Implemented..."
+  mavenLocal()
 }
