@@ -6,7 +6,7 @@ group = 'oliv.cool.stuff'
 version = '4.0.0.0'
 
 // def userprofile = System.getenv()['USERPROFILE'] // On Windows...
-// ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password") 
+// ////ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password") 
 
 dependencies {
   compile project(':geomutils')
