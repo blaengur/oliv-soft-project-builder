@@ -6,9 +6,9 @@ group = 'oliv.cool.stuff'
 version = '4.0.0.0'
 
 // def userprofile = System.getenv()['USERPROFILE'] // On Windows...
-// ////ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password") 
+//ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password")
 
-/*dependencies {
+dependencies {
   compile project(':geomutils')
   compile project(':javanmeaparser')
   compile project(':coreutilities')
@@ -23,9 +23,10 @@ version = '4.0.0.0'
   compile project(':star-finder')
   compile project(':sailfax')
   compile project(':navigation-desktop')
+  compile project(':navigation-desktop-user-exits')
   compile project(':polar-smoother')
   compile project(':weatherwizard')
-}*/
+}
 
 repositories {
   mavenCentral()
