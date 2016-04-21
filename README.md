@@ -11,6 +11,13 @@ To proceed:
 - Modify the script named `set.gradle.env` to match your context
 - Run the script named `build.all`
 
+### Preamble
+This project refers to several independent sub-projects, this is intentional, as several of them can be used
+independently of the project you're on right now.
+This is sometime a bit cumbersome, as every sub-project has to be checked in separately, but it brings some flexibility to the software,
+and to all the projects that may depend on the sub-projects.
+
+### First check out with git
 <pre>
 Welcome to Git (version 1.8.4-preview20130916)
 
