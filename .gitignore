@@ -1,2 +1,4 @@
 olivsoft/
 .gradle/
+*.iml
+gradle.xml

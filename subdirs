@@ -1,0 +1,12 @@
+#!/bin/bash
+DIRS=`ls -l . | egrep '^d' | awk '{print $9}'`
+#
+for DIR in $DIRS    
+do    
+# echo ${DIR}    
+ cd ${DIR}
+ echo -- Tags  for ${DIR} --
+ git tag
+ echo ----------
+ cd ..
+done

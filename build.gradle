@@ -8,7 +8,7 @@ version = '4.0.0.0'
 // def userprofile = System.getenv()['USERPROFILE'] // On Windows...
 // ////ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password") 
 
-dependencies {
+/*dependencies {
   compile project(':geomutils')
   compile project(':javanmeaparser')
   compile project(':coreutilities')
@@ -25,7 +25,7 @@ dependencies {
   compile project(':navigation-desktop')
   compile project(':polar-smoother')
   compile project(':weatherwizard')
-}
+}*/
 
 repositories {
   mavenCentral()
