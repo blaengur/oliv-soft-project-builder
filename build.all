@@ -20,6 +20,7 @@ fi
 #
 export proxyHost proxyPort
 #
+chmod +x set.gradle.env checkout.sh update.sh
 echo Setting env
 . ./set.gradle.env
 #
@@ -27,6 +28,8 @@ echo -----------------
 echo Step 1 - Checkout
 echo -----------------
 ./checkout.sh
+#
+echo Copying resources to olivsoft directory
 #
 cp build.gradle olivsoft
 cp gradle.properties olivsoft
@@ -60,6 +63,14 @@ echo ---------------------
 echo Step 2 - Now building
 echo ---------------------
 ../gradlew build
+cd release
+../../gradlew shadowJar
+echo If no error occurred, you can run the soft:
+echo 'on Windows: olivsoft.bat'
+echo 'on Linux: cd all-scripts; ./olivsoft'
+echo 'on MacOS: cd all-scripts; ./olivsoft.mac'
+echo 'on RasPI (with a small screen): cd all-scripts; ./olivsoft.small'
+#
 # Copying archives
 # find . -name *-1.0.jar -print -exec cp {} ./build/libs \;
-find . -name *-3.0.1.5.jar -print 
+# find . -name *-3.0.1.5.jar -print 
