@@ -8,25 +8,25 @@ version = '4.0.0.0'
 // def userprofile = System.getenv()['USERPROFILE'] // On Windows...
 //ant.setproxy(proxyhost: "$proxyHost", proxyport: "$proxyPort") //, proxyuser="user", proxypassword="password")
 
-//dependencies {
-//  compile project(':geomutils')
-//  compile project(':javanmeaparser')
-//  compile project(':coreutilities')
-//  compile project(':chartcomponents')
-//  compile project(':javanauticalalmanac')
-//  compile project(':fullnmeaconsole')
-//  compile project(':almanac-related-tools')
-//  compile project(':chart-library')
-//  compile project(':google-locator') 
-//  compile project(':java-tide-engine')
-//  compile project(':tide-engine-implementation')
-//  compile project(':star-finder')
-//  compile project(':sailfax')
-//  compile project(':navigation-desktop')
-//  compile project(':navigation-desktop-user-exits')
-//  compile project(':polar-smoother')
-//  compile project(':weatherwizard')
-//}
+dependencies {
+  compile project(':geomutils')
+  compile project(':javanmeaparser')
+  compile project(':coreutilities')
+  compile project(':chartcomponents')
+  compile project(':javanauticalalmanac')
+  compile project(':fullnmeaconsole')
+  compile project(':almanac-related-tools')
+  compile project(':chart-library')
+  compile project(':google-locator') 
+  compile project(':java-tide-engine')
+  compile project(':tide-engine-implementation')
+  compile project(':star-finder')
+  compile project(':sailfax')
+  compile project(':navigation-desktop')
+  compile project(':navigation-desktop-user-exits')
+  compile project(':polar-smoother')
+  compile project(':weatherwizard')
+}
 
 repositories {
   mavenCentral()
