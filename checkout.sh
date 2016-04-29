@@ -24,6 +24,7 @@ checkout polar-smoother
 checkout navigation-desktop-user-exits
 checkout geomutils
 checkout weatherwizard
+checkout ww-user-exits
 checkout release
 #
 echo Checkout completed
