@@ -65,6 +65,10 @@ echo ---------------------
 # ../gradlew build
 cd release
 ../../gradlew shadowJar
+#
+chmod +x all-script/olivsoft*
+find all-scripts/pub 'publish*' -exec chmod +x {} \;
+#
 echo If no error occurred, you can run the soft:
 echo 'on Windows: olivsoft.bat'
 echo 'on Linux: cd all-scripts; ./olivsoft'
