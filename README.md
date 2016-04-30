@@ -18,7 +18,7 @@ This is sometime a bit cumbersome, as every sub-project has to be checked in and
 and to all the projects that may depend on the sub-projects.
 
 ### First check out with git
-Here is a console output. In **bold**, the command you type.
+Here is a console output. In **bold**, the commands you type.
 <pre>
 Welcome to Git (version 1.8.4-preview20130916)
 
