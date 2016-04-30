@@ -62,7 +62,7 @@ echo JAVA_HOME is currently $JAVA_HOME
 echo ---------------------
 echo Step 2 - Now building
 echo ---------------------
-../gradlew build
+# ../gradlew build
 cd release
 ../../gradlew shadowJar
 echo If no error occurred, you can run the soft:
