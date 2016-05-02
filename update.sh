@@ -2,7 +2,8 @@
 update() {
   echo Updating $1...
   cd olivsoft/$1
-  git pull --quiet origin master
+# git pull --quiet origin master
+  git pull origin master
   cd ../..
 }
 #
@@ -27,6 +28,7 @@ update ww-user-exits
 update release
 #
 echo Code update completed
+echo ---------------------
 echo You can now run the build:
 echo 'Prompt> cd olivsoft/release'
 echo 'Prompt> ../../gradlew shadowJar'
