@@ -17,6 +17,10 @@ independently of the project you're on right now.
 This is sometime a bit cumbersome, as every sub-project has to be checked in and out separately, but it brings some flexibility to the software,
 and to all the projects that may depend on the sub-projects.
 
+### Platforms
+This build process allows the soft to run on Linux, Windows, and Mac OS.
+For Linux, tested on Debian, and Ubuntu.
+
 ### First check out with git
 Here is a console output. In **bold**, the commands you type.
 <pre>
