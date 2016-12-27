@@ -113,7 +113,7 @@ This script does a `git pull` in all the sub-directories, which is something you
 After refreshing the code, you need to re-build the software, from the `release` directory:
 ```
 prompt> cd olivsoft/release
-prompt> ../../gradlew shadowJar
+prompt> ../../gradlew --daemon shadowJar
 ```
 
 #### Generate your own distribution
