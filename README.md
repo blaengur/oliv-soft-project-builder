@@ -7,7 +7,7 @@ This project will help you to build the Weather Wizard and the Navigation Deskto
 You obviously need [git](https://help.github.com/articles/set-up-git/) (ie on Windows, you need the git bash tool).
 
 ##### Summary of the pre-requisites
-* Java, version 1.7 minimum (know your `$JAVA_HOME`).
+* Java, version 1.8 minimum (know your `$JAVA_HOME`).
 * git
   * On Windows, install the `git bash shell`.
   * git should be available by default on Mac OS and Linux
