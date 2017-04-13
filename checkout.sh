@@ -9,7 +9,7 @@ mkdir olivsoft
 #
 checkout javanmeaparser
 checkout coreutilities
-checkout chartcomponents	
+checkout chartcomponents
 checkout javanauticalalmanac
 checkout fullnmeaconsole
 checkout java-tide-engine
@@ -25,6 +25,7 @@ checkout navigation-desktop-user-exits
 checkout geomutils
 checkout weatherwizard
 checkout ww-user-exits
+checkout ImageDB
 checkout release
 #
 echo Checkout completed

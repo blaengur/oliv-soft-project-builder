@@ -25,6 +25,7 @@ update navigation-desktop-user-exits
 update geomutils
 update weatherwizard
 update ww-user-exits
+update ImageDB
 update release
 #
 echo Code update completed
